@@ -23,6 +23,11 @@ public class HeloController {
         return "th/index";
     }
 
+    @GetMapping("/data")
+    public String data() {
+        return "th/dataTable3";
+    }
+
     @GetMapping("/main1")
     public String main1() {
         return "main1";
